@@ -1,0 +1,10 @@
+<app-header [navbarType]="'admin'"></app-header>
+<section class="head-banner">
+  <h1>Suggestions</h1>
+</section>
+<section class="movies-grid">
+  <app-card *ngFor="let movie of gridData | async" [movie]="movie"></app-card>
+</section>
+
+
+

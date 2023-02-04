@@ -1,0 +1,21 @@
+<div class="suggest-modal">
+  <div class="close-button-wrapper">
+    <div class="close-button" (click)="onNoClick()">
+      <img src="assets/dialog/close.png" alt="close">
+    </div>
+  </div>
+
+  <form class="suggest-form">
+    <h2>Suggest something to watch</h2>
+    <app-search-input [label]="'Title'"
+                      [image]="'assets/dialog/video-play.svg'"
+                      (searchValue)="getTitle($event)"
+    ></app-search-input>
+    <app-search-input
+                      [label]="'Link (if available)'"
+                      [image]="'assets/dialog/link.svg'"
+                      (searchValue)="getUrl($event)"
+    ></app-search-input>
+    <app-button [title]="'Suggest'" class="form-item-btn" (submit)="submitSuggest()"></app-button>
+  </form>
+</div>

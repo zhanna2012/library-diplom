@@ -1,0 +1,14 @@
+<app-header [navbarType]="'user'"></app-header>
+<section class="head-banner">
+  <p>MaileHereko</p>
+  <h1>Movies</h1>
+  <app-search-input (searchValue)="getSearchValue($event)"></app-search-input>
+  <div class="movies-grid-count">
+    <span>{{gridDataCount}} items</span>
+  </div>
+</section>
+<section class="movies-grid">
+  <app-card *ngFor="let movie of gridData | async | search: searchValue" [movie]="movie"></app-card>
+</section>
+
+

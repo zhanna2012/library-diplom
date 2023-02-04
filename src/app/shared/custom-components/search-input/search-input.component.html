@@ -1,0 +1,7 @@
+<form class="example-form">
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>{{label ? label :'Search movies or tv shows'}}</mat-label>
+    <img matPrefix [src]="image ? image : 'assets/search-input/placeholder.svg'" alt="placeholder" style="margin-right: 3px">
+    <input [type]="type ? type : 'text'" matInput (input)="valueChange($event)">
+  </mat-form-field>
+</form>

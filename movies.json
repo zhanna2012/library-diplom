@@ -1,0 +1,265 @@
+{
+  "movies": [
+    {
+      "adult": false,
+      "backdrop_path": "/6zXs4OyZM6U4reYvddsJWeByxMX.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 448366,
+      "media_type": "movie",
+      "original_language": "en",
+      "original_title": "Building the Dream: Assembling the Avengers",
+      "overview": "Witness Marvel's epic journey, from its comic book origins to its blockbuster film franchises, through seven exclusive featurettes. Get the inside story, with exclusive behind-the-scenes footage and cast interviews, and discover the history behind its legendary characters and films -- Iron Man, The Incredible Hulk, Iron Man 2, Thor, Captain America: The First Avenger, and Marvel's The Avengers! With over 90 minutes of original footage, this is your all-access pass to Marvel and Phase One of the Marvel Cinematic Universe!",
+      "popularity": 10.335,
+      "poster_path": "/coS6rIaucxDzq20kiJozTgQ0Nmk.jpg",
+      "release_date": "2012-09-25",
+      "title": "Building the Dream: Assembling the Avengers",
+      "video": true,
+      "vote_average": 8.4,
+      "vote_count": 24,
+      "isMovie": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/6YwkGolwdOMNpbTOmLjoehlVWs5.jpg",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "id": 99861,
+      "media_type": "movie",
+      "original_language": "en",
+      "original_title": "Avengers: Age of Ultron",
+      "overview": "When Tony Stark tries to jumpstart a dormant peacekeeping program, things go awry and Earth’s Mightiest Heroes are put to the ultimate test as the fate of the planet hangs in the balance. As the villainous Ultron emerges, it is up to The Avengers to stop him from enacting his terrible plans, and soon uneasy alliances and unexpected action pave the way for an epic and unique global adventure.",
+      "popularity": 158.662,
+      "poster_path": "/4ssDuvEDkSArWEdyBl2X5EHvYKU.jpg",
+      "release_date": "2015-04-22",
+      "title": "Avengers: Age of Ultron",
+      "video": false,
+      "vote_average": 7.3,
+      "vote_count": 20581,
+      "isMovie": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/w2PMyoyLU22YvrGK3smVM9fW1jj.jpg",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "id": 299537,
+      "media_type": "movie",
+      "original_language": "en",
+      "original_title": "Captain Marvel",
+      "overview": "The story follows Carol Danvers as she becomes one of the universe’s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races. Set in the 1990s, Captain Marvel is an all-new adventure from a previously unseen period in the history of the Marvel Cinematic Universe.",
+      "popularity": 80.887,
+      "poster_path": "/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
+      "release_date": "2019-03-06",
+      "title": "Captain Marvel",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 13643,
+      "isMovie": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+      "genre_ids": [
+        12,
+        878,
+        28
+      ],
+      "id": 299534,
+      "media_type": "movie",
+      "original_language": "en",
+      "original_title": "Avengers: Endgame",
+      "overview": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+      "popularity": 191.595,
+      "poster_path": "/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+      "release_date": "2019-04-24",
+      "title": "Avengers: Endgame",
+      "video": false,
+      "vote_average": 8.3,
+      "vote_count": 22106,
+      "isMovie": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
+      "genre_ids": [
+        878,
+        28,
+        12
+      ],
+      "id": 24428,
+      "media_type": "movie",
+      "original_language": "en",
+      "original_title": "The Avengers",
+      "overview": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
+      "popularity": 226.694,
+      "poster_path": "/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+      "release_date": "2012-04-25",
+      "title": "The Avengers",
+      "video": false,
+      "vote_average": 7.7,
+      "vote_count": 27782,
+      "isMovie": true
+    },
+    {
+      "backdrop_path": "/rlCRM7U5g2hcU1O8ylGcqsMYHIP.jpg",
+      "first_air_date": "2022-06-08",
+      "genre_ids": [
+        10765,
+        10759,
+        35
+      ],
+      "id": 92782,
+      "media_type": "tv",
+      "name": "Ms. Marvel",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Ms. Marvel",
+      "overview": "A great student, avid gamer, and voracious fan-fic scribe, Kamala Khan has a special affinity for superheroes, particularly Captain Marvel. However, she struggles to fit in at home and at school — that is, until she gets superpowers like the heroes she’s always looked up to. Life is easier with superpowers, right?",
+      "popularity": 60.963,
+      "poster_path": "/ls2Hl8CXmqEHvkDqkN3fRtmDodK.jpg",
+      "vote_average": 6.7,
+      "vote_count": 742,
+      "isMovie": false
+    }
+  ],
+  "manual": [
+    {
+      "title": "Friends",
+      "url": "httpp//",
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "email": "admin@email.com",
+      "userPassword": "admin",
+      "role": "admin"
+    },
+    {
+      "email": "user@email.com",
+      "userPassword": "user",
+      "role": "user"
+    }
+  ],
+  "list": [
+    {
+      "backdrop_path": "/6ZqXMR9aLLdGjbxkIMo77EhZexy.jpg",
+      "first_air_date": "2013-05-26",
+      "genre_ids": [
+        10759,
+        16,
+        10765
+      ],
+      "id": 59427,
+      "media_type": "tv",
+      "name": "Marvel's Avengers",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Marvel's Avengers",
+      "overview": "The further adventures of the Marvel Universe's mightiest general membership superhero team. With an all-star roster consisting of Iron Man, Captain America, Thor, Hulk, Hawkeye, Falcon and, occasionally--when she feels like it and only when she feels like it--Black Widow, the Avengers are a team in the truest sense. The Avengers save the world from the biggest threats imaginable--threats no single super hero could withstand.",
+      "popularity": 69.127,
+      "poster_path": "/vchDkX1DtqTy3bIDJ7YqmSbX965.jpg",
+      "vote_average": 7.6,
+      "vote_count": 572,
+      "isMovie": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/6zXs4OyZM6U4reYvddsJWeByxMX.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 448366,
+      "media_type": "movie",
+      "original_language": "en",
+      "original_title": "Building the Dream: Assembling the Avengers",
+      "overview": "Witness Marvel's epic journey, from its comic book origins to its blockbuster film franchises, through seven exclusive featurettes. Get the inside story, with exclusive behind-the-scenes footage and cast interviews, and discover the history behind its legendary characters and films -- Iron Man, The Incredible Hulk, Iron Man 2, Thor, Captain America: The First Avenger, and Marvel's The Avengers! With over 90 minutes of original footage, this is your all-access pass to Marvel and Phase One of the Marvel Cinematic Universe!",
+      "popularity": 10.024,
+      "poster_path": "/coS6rIaucxDzq20kiJozTgQ0Nmk.jpg",
+      "release_date": "2012-09-25",
+      "title": "Building the Dream: Assembling the Avengers",
+      "video": true,
+      "vote_average": 8.4,
+      "vote_count": 24,
+      "isMovie": true
+    },
+    {
+      "backdrop_path": "/rlCRM7U5g2hcU1O8ylGcqsMYHIP.jpg",
+      "first_air_date": "2022-06-08",
+      "genre_ids": [
+        10765,
+        10759,
+        35
+      ],
+      "id": 92782,
+      "media_type": "tv",
+      "name": "Ms. Marvel",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Ms. Marvel",
+      "overview": "A great student, avid gamer, and voracious fan-fic scribe, Kamala Khan has a special affinity for superheroes, particularly Captain Marvel. However, she struggles to fit in at home and at school — that is, until she gets superpowers like the heroes she’s always looked up to. Life is easier with superpowers, right?",
+      "popularity": 101.8,
+      "poster_path": "/ls2Hl8CXmqEHvkDqkN3fRtmDodK.jpg",
+      "vote_average": 6.8,
+      "vote_count": 663,
+      "isMovie": false
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
+      "genre_ids": [
+        878,
+        28,
+        12
+      ],
+      "id": 24428,
+      "media_type": "movie",
+      "original_language": "en",
+      "original_title": "The Avengers",
+      "overview": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
+      "popularity": 176.478,
+      "poster_path": "/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+      "release_date": "2012-04-25",
+      "title": "The Avengers",
+      "video": false,
+      "vote_average": 7.7,
+      "vote_count": 27770,
+      "isMovie": true
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/zvjBC9guJVw32bZu4ODp6wzJ9Vi.jpg",
+      "genre_ids": [
+        10751,
+        16
+      ],
+      "id": 368304,
+      "media_type": "movie",
+      "original_language": "en",
+      "original_title": "LEGO Marvel Super Heroes: Avengers Reassembled!",
+      "overview": "The Avengers are forced to “party” with Ultron when he seeks to disassemble the team by taking control of Iron Man’s armor and enact a nefarious scheme to take over the world.",
+      "popularity": 14.161,
+      "poster_path": "/xUBZNoY7idPfqKZepnDEv7Qc8GC.jpg",
+      "release_date": "2015-11-16",
+      "title": "LEGO Marvel Super Heroes: Avengers Reassembled!",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 109,
+      "isMovie": true
+    }
+  ]
+}

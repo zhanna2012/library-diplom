@@ -1,0 +1,26 @@
+<div class="card">
+  <div class="card-content">
+    <div class="card-rating">
+      <img src="assets/card/star.svg" [alt]="movie.original_title ? movie.original_title : movie.original_name">
+      <p>{{movie.vote_average}}</p>
+    </div>
+    <a class="card-image" (click)="getDetails(movie.id, movie.isMovie)">
+      <img [src]="'https://image.tmdb.org/t/p/w500/' + movie.poster_path">
+    </a>
+    <div class="card-info">
+      <a (click)="getDetails(movie.id, movie.isMovie)">{{movie.original_title ? movie.original_title : movie.original_name}}</a>
+    </div>
+    <div class="suggest-wrapper" *ngIf="suggestFlag">
+      <img [src]="suggestedFlag ? 'assets/card/tick.png' :'assets/card/like.svg'" alt="icon">
+      <a (click)="suggested()"
+         [ngStyle]="{'color': suggestedFlag ? '#37d8a8' : '#7B6EF6', 'cursor': suggestedFlag ? 'auto' : 'pointer'}"
+      >{{suggestedFlag ? 'Suggested' : 'Suggest this'}}</a>
+    </div>
+    <div class="suggest-wrapper" *ngIf="addFlag">
+      <img [src]="addedFlag ? 'assets/card/tick.png' :'assets/card/add.svg'" alt="icon">
+      <a (click)="added()"
+         [ngStyle]="{'color': addedFlag ? '#37d8a8' : '#7B6EF6', 'cursor': addedFlag ? 'auto' : 'pointer'}"
+      >{{addedFlag ? 'Added' : 'Add to my list'}}</a>
+    </div>
+  </div>
+</div>

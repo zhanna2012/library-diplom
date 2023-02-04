@@ -1,0 +1,14 @@
+<app-header [navbarType]="'admin'"></app-header>
+<section class="head-banner">
+  <h1>Add new item</h1>
+  <div class="search-container">
+    <app-search-input (searchValue)="getSearchValue($event)"></app-search-input>
+    <app-button (submit)="searchData()" style="margin-bottom: 20px"></app-button>
+  </div>
+</section>
+<section class="movies-grid">
+  <app-card *ngFor="let movie of gridData | async" [movie]="movie"></app-card>
+</section>
+
+
+

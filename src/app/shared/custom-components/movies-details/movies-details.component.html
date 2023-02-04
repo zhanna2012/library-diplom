@@ -1,0 +1,48 @@
+<section class="details">
+  <div class="details-header">
+    <div class="banner-image">
+      <img [src]="'https://image.tmdb.org/t/p/w500/' + movie.backdrop_path">
+    </div>
+    <div class="header-container">
+      <div class="breadcrumbs">
+        <a routerLink="">MaileHereko</a>
+        <p> / </p>
+        <a routerLink="/movies">Movies</a>
+      </div>
+      <h1 class="title">{{movie.original_title}}</h1>
+    </div>
+  </div>
+  <div class="details-wrapper">
+    <div class="poster-wrapper">
+      <img [src]="'https://image.tmdb.org/t/p/w500/' + movie.poster_path">
+    </div>
+    <div class="details-container">
+      <div class="details-container__header">
+        {{movie.tagline}}
+      </div>
+      <div class="details-container__overview">
+        {{movie.overview}}
+      </div>
+      <div class="details-container__rating">
+        <img src="assets/card/star.svg" alt="Name of movie">
+        <p>{{movie.vote_average.toFixed(1)}}</p>
+      </div>
+      <div class="details-container__block">
+        <p class="label">Type</p>
+        <p class="value">Movie</p>
+      </div>
+      <div class="details-container__block">
+        <p class="label">Release Date:</p>
+        <p class="value">{{movie.release_date}}</p>
+      </div>
+      <div class="details-container__block">
+        <p class="label">Run time</p>
+        <p class="value">{{movie.runtime}}min</p>
+      </div>
+      <div class="details-container__block">
+        <p class="label">Genres</p>
+        <p class="value">{{this.genres}}</p>
+      </div>
+    </div>
+  </div>
+</section>

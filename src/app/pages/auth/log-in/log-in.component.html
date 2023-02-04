@@ -1,0 +1,11 @@
+<section class="log-in">
+  <div class="sally-wrapper">
+    <img src="assets/log-in/Saly-11.png" alt="Sally">
+  </div>
+  <form>
+    <h1>Login</h1>
+    <app-search-input [label]="'Email'" [image]="'assets/log-in/email.svg'" (searchValue)="getEmail($event)"></app-search-input>
+    <app-search-input [label]="'Password'" [image]="'assets/log-in/password.svg'" (searchValue)="getPassword($event)" [type]="'password'"></app-search-input>
+    <app-button [title]="'Login'" (submit)="login()"></app-button>
+  </form>
+</section>

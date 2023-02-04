@@ -1,0 +1,34 @@
+<app-header [navbarType]="'admin'"></app-header>
+<div class="dashboard">
+  <h1>Welcome</h1>
+  <section class="dashboard-grid">
+    <div class="dashboard-grid__item">
+      <h3>{{moviesCount}}</h3>
+      <p>Movies</p>
+    </div>
+    <div class="dashboard-grid__item">
+      <h3>{{tvShowsCount}}</h3>
+      <p>TV Shows</p>
+    </div>
+    <div class="dashboard-grid__item">
+      <h3>{{suggestionsCount}}</h3>
+      <p>Suggestions</p>
+    </div>
+    <div class="dashboard-grid__item">
+      <h3>{{manualCount}}</h3>
+      <p>Manual Suggestions</p>
+    </div>
+  </section>
+  <div class="links">
+    <h3>Quick Links</h3>
+    <div class="links-blocks">
+      <div class="links-blocks__item">
+        <a>Suggestions</a>
+      </div>
+      <div class="links-blocks__item">
+        <a>Add</a>
+      </div>
+    </div>
+  </div>
+</div>
+

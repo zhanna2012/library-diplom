@@ -1,0 +1,26 @@
+<app-header [navbarType]="'user'"></app-header>
+<section class="head-banner">
+  <h1>Suggest me</h1>
+  <p>I will really appericiate it if you take time to suggest me something good to watch</p>
+  <div class="search-container">
+    <app-search-input (searchValue)="getSearchValue($event)"></app-search-input>
+    <app-button (submit)="searchData()" style="margin-bottom: 20px"></app-button>
+  </div>
+</section>
+<div *ngIf="displayFlag">
+  <section class="movies-grid">
+    <app-card *ngFor="let movie of gridData | async" [movie]="movie"></app-card>
+  </section>
+  <div class="not-found">
+    <p>Didin’t find the one you looking for?</p>
+    <app-button [title]="'Suggest Manually'" (submit)="openDialog()"></app-button>
+  </div>
+</div>
+
+<div class="not-found-form" *ngIf="formFlag">
+  <h1>Sorry, No results found</h1>
+  <p>There are no movies or TV shows matching your search terms. You can suggest me manually</p>
+  <app-button [title]="'Suggest Manually'" (submit)="openDialog()"></app-button>
+</div>
+
+

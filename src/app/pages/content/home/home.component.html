@@ -1,0 +1,15 @@
+<app-header [navbarType]="'user'"></app-header>
+<section class="head-banner">
+  <h1>Library</h1>
+  <p>Enjoy reading in our library!😉</p>
+  <app-search-input (searchValue)="getSearchValue($event)"></app-search-input>
+  <div class="movies-grid-count">
+    {{titleCount}} <span>({{gridDataCount}})</span>
+  </div>
+</section>
+<section class="movies-grid">
+    <book-card *ngFor="let book of gridDataBooks | async | search: searchValue"
+               [book]="book"></book-card>
+</section>
+
+

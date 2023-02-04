@@ -1,0 +1,70 @@
+<section class="details">
+  <div class="details-header">
+    <div class="banner-image">
+      <img [src]="'https://image.tmdb.org/t/p/w500/' + movie.backdrop_path">
+    </div>
+    <div class="header-container">
+      <div class="breadcrumbs">
+        <a routerLink="">MaileHereko</a>
+        <p> / </p>
+        <a routerLink="/tv">TV Shows</a>
+      </div>
+      <h1 class="title">{{movie.original_name}}</h1>
+    </div>
+  </div>
+  <div class="details-wrapper">
+    <div class="poster-wrapper">
+      <img [src]="'https://image.tmdb.org/t/p/w500/' + movie.poster_path">
+    </div>
+    <div class="details-container">
+      <div class="details-container__header">
+        {{movie.tagline}}
+      </div>
+      <div class="details-container__overview">
+        {{movie.overview}}
+      </div>
+      <div class="details-container__rating">
+        <img src="assets/card/star.svg" alt="Name of movie">
+        <p>{{movie.vote_average.toFixed(1)}}</p>
+      </div>
+      <div class="details-columns">
+        <div class="details-column">
+          <div class="details-container__block">
+            <p class="label">Type</p>
+            <p class="value">TV Show</p>
+          </div>
+          <div class="details-container__block">
+            <p class="label">First air date</p>
+            <p class="value">{{movie.first_air_date}}</p>
+          </div>
+          <div class="details-container__block">
+            <p class="label">No. of Seasons</p>
+            <p class="value">{{movie.number_of_seasons}}min</p>
+          </div>
+        </div>
+        <div class="details-column">
+          <div class="details-container__block">
+            <p class="label">Status</p>
+            <p class="value">{{movie.status}}</p>
+          </div>
+          <div class="details-container__block">
+            <p class="label">Last air date</p>
+            <p class="value">{{movie.last_air_date}}min</p>
+          </div>
+          <div class="details-container__block">
+            <p class="label">No. of episodes</p>
+            <p class="value">{{movie.number_of_episodes}}min</p>
+          </div>
+        </div>
+      </div>
+      <div class="details-container__block">
+        <p class="label">Episode run time</p>
+        <p class="value">{{movie.episode_run_time}}min</p>
+      </div>
+      <div class="details-container__block">
+        <p class="label">Genres</p>
+        <p class="value">{{this.genres}}</p>
+      </div>
+    </div>
+  </div>
+</section>

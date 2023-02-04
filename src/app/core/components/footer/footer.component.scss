@@ -1,0 +1,21 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  position: relative;
+  bottom: 0;
+  margin: 80px 0;
+  p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8E95A9;
+    max-width: 588px;
+    min-height: 48px;
+    text-align: center;
+  }
+}

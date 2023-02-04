@@ -1,0 +1,36 @@
+<nav class="custom-navbar" *ngIf="navbarType==='user'">
+  <div class="custom-navbar__item"
+  style="visibility: hidden">
+    <a routerLink="/movies">Movies</a>
+  </div>
+  <div class="custom-navbar__item"
+       style="visibility: hidden">
+    <a routerLink="/tv">TV Shows</a>
+  </div>
+  <div class="custom-navbar__item"
+       style="visibility: hidden">
+    <img src="assets/header/arrow-right.svg" alt="arrow">
+    <a routerLink="/suggest">Suggest me</a>
+  </div>
+  <div class="custom-navbar__item">
+    <img src="assets/header/logout.svg" alt="logout">
+    <a routerLink="/log-in" (click)="logout()">Logout</a>
+  </div>
+</nav>
+
+<nav class="custom-navbar" *ngIf="navbarType==='admin'">
+  <div class="custom-navbar__item">
+    <a routerLink="/dashboard">Dashboard</a>
+  </div>
+  <div class="custom-navbar__item">
+    <a routerLink="/suggestions">Suggestions</a>
+  </div>
+  <div class="custom-navbar__item">
+    <a routerLink="/add-item">Add</a>
+  </div>
+  <div class="custom-navbar__item">
+    <img src="assets/header/logout.svg" alt="logout">
+    <a routerLink="/log-in" (click)="logout()">Logout</a>
+  </div>
+</nav>
+

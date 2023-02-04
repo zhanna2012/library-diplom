@@ -1,0 +1,15 @@
+.example-form {
+  min-width: 344px;
+  max-width: 64px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-full-width {
+  width: 100%;
+  input {
+    width: 100%;
+  }
+}

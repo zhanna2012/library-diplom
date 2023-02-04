@@ -1,0 +1,211 @@
+.details {
+  width: 100%;
+  padding-left: 120px;
+  padding-right: 120px;
+  max-width: 100%;
+  margin: 40px auto;
+  .banner-image {
+    width: 100%;
+    height: 480px;
+    border-radius: 2.5rem;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .header-container {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 560px;
+    margin-top: -72px;
+    margin-left: 80px;
+    padding: 40px;
+    background: rgba(32, 40, 62, 0.8);
+    backdrop-filter: blur(12px);
+    border-radius: 24px;
+    @media screen and (max-width: 1200px) {
+        margin-top: -72px;
+        margin-left: 0;
+    }
+    .breadcrumbs {
+      display: flex;
+      margin-bottom: 0.5rem;
+      a {
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+        color: #BEB7FB;
+        text-decoration: none;
+      }
+      p {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        color: #8996A2;
+      }
+    }
+    .title {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 40px;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.02em;
+      color: #EBEEF5;
+    }
+  }
+  .details-wrapper {
+    display: flex;
+    margin: 80px;
+    @media screen and (max-width: 1200px) {
+      margin: 80px 0
+    }
+    @media screen and (max-width: 620px) {
+      flex-direction: column;
+    }
+    .poster-wrapper {
+      width: 50%;
+      height: 720px;
+      border-radius: 1.5rem;
+      overflow: hidden;
+      @media screen and (max-width: 991px) {
+        height: 560px;
+      }
+      @media screen and (max-width: 620px) {
+        width: 100%;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .details-container {
+      width: 50%;
+      padding-left: 80px;
+      @media screen and (max-width: 620px) {
+        width: 100%;
+        padding-left: 0;
+      }
+      &__header {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: -0.015em;
+        color: #EBEEF5;
+        margin-bottom: 24px;
+      }
+      &__overview {
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: #8E95A9;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+      }
+      &__rating {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 4px 8px;
+        gap: 4px;
+        width: 59px;
+        height: 32px;
+        background: rgba(0, 0, 0, 0.65);
+        backdrop-filter: blur(4px);
+        border-radius: 8px;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        margin: 24px 0;
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #FFAD49;
+        }
+      }
+      &__block {
+        width: 100%;
+        margin-bottom: 24px;
+        .label {
+          font-family: 'Poppins', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #767E94;
+        }
+        .value {
+          font-family: 'Poppins', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 32px;
+          color: #C3C8D4;
+          flex: none;
+          order: 1;
+          flex-grow: 0;
+        }
+      }
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .details {
+    padding-left: 80px;
+    padding-right: 80px;
+    .banner-image {
+      height: 320px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .details {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .header-container {
+    margin-top: -64px;
+    padding: 32px;
+  }
+ /* .details-wrapper {
+    flex-direction: column;
+  }
+  .poster-wrapper {
+    width: 100%;
+  }
+  .details-container {
+    width: 100%;
+  }*/
+}
+
+
+@media screen and (max-width: 360px) {
+  .details {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

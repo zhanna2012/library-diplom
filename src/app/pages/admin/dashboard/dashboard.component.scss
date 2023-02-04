@@ -1,0 +1,137 @@
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  grid-row-gap: 24px;
+  row-gap: 24px;
+  grid-column-gap: 24px;
+  column-gap: 24px;
+  align-items: start;
+}
+
+.dashboard-grid__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 16px;
+  gap: 8px;
+  max-width: 282px;
+  min-height: 152px;
+  background: #121829;
+  opacity: 0.8;
+  border-radius: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #EBEEF5;
+  }
+  p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #767E94;
+  }
+}
+.dashboard {
+  padding: 0 120px;
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    color: #EBEEF5;
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+}
+
+.links {
+  margin-top: 80px;
+  h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #EBEEF5;
+    margin-bottom: 40px;
+  }
+  .links-blocks {
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    align-items: start;
+    grid-column-gap: 24px;
+  }
+  .links-blocks__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 8px;
+    min-height: 104px;
+    background: rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+    border-radius: 12px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+  }
+  a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #7B6EF6;
+    text-decoration: none;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .dashboard {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .dashboard-grid {
+    grid-template-columns: repeat(3,minmax(0,1fr))
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .dashboard {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .dashboard-grid {
+    grid-template-columns: repeat(2,minmax(0,1fr))
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .dashboard {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .dashboard-grid {
+    grid-template-columns: repeat(1,minmax(0,1fr))
+  }
+}
+
+
